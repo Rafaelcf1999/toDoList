@@ -1,0 +1,42 @@
+.card-nota {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: var(--fundo-detalhes);
+  border-radius: 4px;
+  flex-wrap: wrap;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  padding: 16px;
+}
+.card-nota_cabecalho {
+  font-size: 1.1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-nota_texto {
+  margin-top: 8px;
+  font-size: 1em;
+}
+
+.card-nota_titulo {
+  font-size: 1.2em;
+  margin-right: 12px;
+}
+.lista-notas {
+  background-color: var(--fundo);
+  flex-grow: 3;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  list-style-type: none;
+  padding-left: 24px;
+  padding-top: 24px;
+}
+.lista-notas_item {
+  margin: 12px;
+  max-width: 240px;
+  max-height: 400px;
+  display: inline;
+}
